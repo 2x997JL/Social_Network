@@ -1,4 +1,4 @@
-## Social Network API
+# Social Network API
 This is a Social Network API built using Node.js, Express.js, and MongoDB. The API provides functionality for 
 creating and managing users, thoughts, and reactions to thoughts.
 
@@ -11,28 +11,30 @@ Start the server and sync the Mongoose models to the MongoDB database using 'npm
 ## Usage
 Once the server is started, you can use Insomnia or any other API client to test the API routes.
 
-# Users
-GET /api/users
-GET /api/users/:id 
-POST /api/users 
-PUT /api/users/:id 
-DELETE /api/users/:id 
+#### Users
+* GET /api/users
+* GET /api/users/:id 
+* POST /api/users 
+* PUT /api/users/:id 
+* DELETE /api/users/:id 
 
-# Thoughts
+#### Thoughts
 
-GET /api/thoughts 
-GET /api/thoughts/:id 
-POST /api/thoughts 
-PUT /api/thoughts/:id 
-DELETE /api/thoughts/:id 
+* GET /api/thoughts 
+* GET /api/thoughts/:id 
+* POST /api/thoughts 
+* PUT /api/thoughts/:id 
+* DELETE /api/thoughts/:id 
 
-# Reactions
-POST /api/thoughts/:thoughtId/reactions 
-DELETE /api/thoughts/:thoughtId/reactions/:reactionId 
+#### Reactions
+* POST /api/thoughts/:thoughtId/reactions 
+* DELETE /api/thoughts/:thoughtId/reactions/:reactionId 
 
-# Friends
-POST /api/users/:userId/friends/:friendId
-DELETE /api/users/:userId/friends/:friendId
+#### Friends
+* POST /api/users/:userId/friends/:friendId
+* DELETE /api/users/:userId/friends/:friendId
 
 ## Testing
 To run the tests for the Social Network API, use 'npm test.'
+
+## Walkthrough Video
