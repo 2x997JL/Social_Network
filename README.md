@@ -38,3 +38,5 @@ Once the server is started, you can use Insomnia or any other API client to test
 To run the tests for the Social Network API, use 'npm test.'
 
 ## Walk-through Video
+
+https://drive.google.com/file/d/1ar4GHSlchyVVhNqNlwCSmKBDKwQcGQBT/view
