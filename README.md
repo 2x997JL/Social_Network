@@ -39,4 +39,4 @@ To run the tests for the Social Network API, use 'npm test.'
 
 ## Walk-through Video
 
-https://drive.google.com/file/d/1ar4GHSlchyVVhNqNlwCSmKBDKwQcGQBT/view
+https://drive.google.com/file/d/1_YMYvPk1B76LAhwvsUpTacjdmy6SUn7m/view
